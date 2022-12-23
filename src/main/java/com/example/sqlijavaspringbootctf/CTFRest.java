@@ -22,7 +22,7 @@ public class CTFRest {
 
     @GetMapping("/welcome")
     public String welcome() {
-        return "Welcome to this API as part of a CTF Challenge their is an /api/execute HTTP GET endpoint also with a single parameter named sql";
+        return "Welcome to this API as part of a CTF Challenge";
     }
 
     @GetMapping("/execute/{sql}")
